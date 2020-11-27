@@ -1,0 +1,76 @@
+/* Style sheet created by Noi Houangvan */
+
+/* style for body */
+body {
+    background-color: transparent;
+	  overflow-y: auto;
+}
+
+/* style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/* style for header */
+head {
+    margin-top: 0.2em;
+    background-color: transparent;
+    border-radius: 0em;
+}
+
+
+/* style for main */
+main {
+    display: block;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    /*border-radius: 0px;*/
+    background-color: transparent;
+}
+
+/* table*/
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even){
+	background-color: d8d9da;
+}
+
+#contain {
+  height: 600px;  
+  overflow-y: hidden;  
+}
+
+#table_scroll {
+  width: 100%;
+  margin-top: 600px;
+  margin-bottom: 600px;
+  /*height: 75vh; /* vh = vertical height of the viewport*/
+  overflow-y: visible;
+  scroll-behavior: smooth;
+}
+  
+#table_scroll tbody td {
+  padding: 24px;
+  background-color: transparent;
+  color: black;
+}
+
+#table_fixed thead th {
+  padding: 24px;
+  background-color: #d8d9da;
+  color: black;
+}
+
+#table_scroll tbody tr.Highlight > .sorting_1 {
+  background-color: green;
+}
+
+#table_scroll tbody tr.Highlight {
+  background-color: green;
+}
